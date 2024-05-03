@@ -4,17 +4,20 @@ def show_menu():
     print('Main Menu')
     print('1. Start Game')
     print('2. Open Dictionary')
-    print('3. Exit')
+    print('3. High Scores')
+    print('4. Exit')
 
 def main():
     while True:
         show_menu()
-        choice = input('Enter your choice (1-3): ')
+        choice = input('Enter your choice (1-4): ')
         if choice == '1':
             subprocess.run(['python3', 'word.py'])
         elif choice == '2':
             subprocess.run(['python3', 'dictionary.py'])
         elif choice == '3':
+            subprocess.run(['python3', 'high_score.py'])
+        elif choice == '4':
             print("Exiting program.")
             break
         else:

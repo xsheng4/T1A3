@@ -1,4 +1,5 @@
 import random
+import subprocess
 
 def generate_letter(choice):
     vowels = 'aeiou'
@@ -16,6 +17,19 @@ def main():
         choice = input("Choose between 'vowel' or 'consonant': ")
         letter = generate_letter(choice)
         print(f"Random letter: {letter}")
+
+    answer = input("Do you want to open the dictionary? (yes/no): ").lower()
+    
+    if answer == "yes":
+        subprocess.run(['python3', 'dictionary.py'])
+    elif answer == "no":
+        answer2 = input("Is there a new high score? (yes/no)").lower()
+        if answer2 == "yes":
+            subprocess.run(['python3', 'high_score.py'])
+        elif answer2 == "no":
+            subprocess.run(['python3', 'main.py'])
+    else:
+        print("Invalid input. Please enter 'yes' or 'no'.")   
 
 if __name__ == "__main__":
     main()
