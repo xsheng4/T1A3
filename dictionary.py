@@ -1,4 +1,5 @@
 import requests
+import subprocess
 
 def get_word_definition(word, api_key):
     url = f'https://www.dictionaryapi.com/api/v3/references/collegiate/json/{word}?key={api_key}'
@@ -19,5 +20,8 @@ def main():
     for definition in definitions:
         print(definition)
 
+
 if __name__ == "__main__":
     main()
+
+    subprocess.run(['python3', 'high_score_enter.py'])

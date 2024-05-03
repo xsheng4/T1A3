@@ -23,9 +23,9 @@ def main():
     if answer == "yes":
         subprocess.run(['python3', 'dictionary.py'])
     elif answer == "no":
-        answer2 = input("Is there a new high score? (yes/no)").lower()
+        answer2 = input("Is there a new high score? (yes/no): ").lower()
         if answer2 == "yes":
-            subprocess.run(['python3', 'high_score.py'])
+            subprocess.run(['python3', 'high_score_enter.py'])
         elif answer2 == "no":
             subprocess.run(['python3', 'main.py'])
     else:
