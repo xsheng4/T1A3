@@ -1,7 +1,10 @@
 import subprocess
 
+# External packages
+from colored import Fore, Back, Style
+
 def show_menu():
-    print('Main Menu')
+    print(f"{Fore.yellow}{Back.blue}Main Menu")
     print('1. Start Game')
     print('2. Open Dictionary')
     print('3. High Scores')
