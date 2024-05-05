@@ -48,6 +48,10 @@ You need to have Python 3 installed in order to run the application. The applica
 - requests==2.31.0
 - urllib3==2.2.1
 
+### System Requirements
+
+This application has been tested and can be run on operating systems such as Linux, Windows and MacOS as long as Python 3 is installed.
+
 ### Installation
 
 To install this application, please download the **src** folder containing the source code of the project.
@@ -76,6 +80,8 @@ As soon as the application starts, you will be presented with the main menu. You
 #### Playing the game
 
 If you have selected option 1 to start the game, it will immediately commence a new game and prompt you to choose between a vowel or consonant.
+
+The user will then need to input either "vowel" or "consonant".
 
 Depending on your choice, a random vowel or consonant will be printed. This will then be repeated eight more times for a total of nine times. Each player can take turns choosing between a vowel or consonant. You can have as many players as you want!
 
