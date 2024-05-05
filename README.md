@@ -63,3 +63,31 @@ As soon as the application starts, you will be presented with the main menu. You
 - View and edit the high score
 - Exit the program
 
+#### Playing the game
+
+If you have selected option 1 to start the game, it will immediately commence a new game and prompt you to choose between a vowel or consonant.
+
+Depending on your choice, a random vowel or consonant will be printed. This will then be repeated eight more times for a total of nine times. Each player can take turns choosing between a vowel or consonant. You can have as many players as you want!
+
+Once all nine letters have been generated, players are then to attempt to spell out the longest word they can with the given letters using each letter only once. 
+
+#### Dictionary Function
+
+If option 2 has been selected, or all nine letters have been printed, it will prompt you if you need to open the dictionary function to check the spelling/definition of a word.
+
+Simply enter the word you want the definition of and it will print out the definition given it is an actual word and/or is spelt correctly.
+
+#### High Score
+
+Selecting option 3 in the main menu, or after the dictionary step in the game will prompt you to enter a new high score if needed. 
+
+The scoring of the game can be completely up to each player, but generally the player with the longest word usually gets one point and each additional time they win again, they get another point.
+
+If a new score needs to be entered, or the high score needs to be editted/removed, the high score function will first prompt for an input depending on what action wants to be done.
+
+"N" for a new high score, "E" to erase the existing high score or "Q" to exit.
+
+If a new high score needs to be input, it will prompt you to enter the high score after the "N" is input.
+
+It will then print and display the new high score.
+
