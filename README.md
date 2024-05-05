@@ -6,6 +6,16 @@ Please refer to the [Help Documentation](#help-documentation) section on instruc
 
 [Github Repository](https://github.com/xsheng4/T1A3)
 
+[Trello Board](https://trello.com/b/0kwowqse/t1a3-terminal-application)
+
+## Table of Contents
+
+- [Features](#features)
+  - [Random Letter Generator]
+  - [Dictionary API]
+  - [High Score Sheet]
+- [Help Documentation](#help-documentation)
+
 ## Features
 
 This application contains six different scripts which all work in conjunction for a smooth experience and ensuring that all the main features of the application works.
