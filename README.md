@@ -11,9 +11,9 @@ Please refer to the [Help Documentation](#help-documentation) section on instruc
 ## Table of Contents
 
 - [Features](#features)
-  - [Random Letter Generator]
-  - [Dictionary API]
-  - [High Score Sheet]
+  - Random Letter Generator
+  - Dictionary API
+  - High Score Sheet
 - [Help Documentation](#help-documentation)
 
 ## Features
